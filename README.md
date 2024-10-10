@@ -24,5 +24,5 @@ If you directly want to copy the token itself, you can try adding alias command 
 ```
 alias msdktoken="pushd /directory/to/generateZoomMeetingSDKToken/ && node index.js | tr -d '\n' | pbcopy &&popd && echo 'Meeting SDK token copied!'"
 ```
-Then the token will not displayed in the shell, but directly copied into the clipboard. Remember the token will expire in 8 hours.
+Then the token will not displayed in the shell, but directly copied into the clipboard. Remember the token will expire in 2 hours.
 Happy tokens!
